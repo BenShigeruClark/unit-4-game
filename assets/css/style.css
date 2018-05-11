@@ -1,0 +1,73 @@
+
+body {
+    background-color: lightskyblue;
+}
+
+
+#gametitle {
+    background-color: peru;
+    color:white;
+    height: 65px;
+    width: 280px;
+    text-align: center;
+    padding:5px;
+    border: 5px;
+    padding-top: 20px;
+    margin: 3px;
+
+}
+
+.rules {
+    background-color: tan;
+    color: forestgreen;
+    width: 40%;
+    height: 80%;
+    text-align:left;
+    padding: 5px;
+    margin: 3px;
+    margin-top: 2px;
+}
+
+#randomNumber {
+    background-color: forestgreen;
+    color: black;
+    width: 15%;
+    height: 150px;
+    margin: 3px;
+    margin-top: 2px;
+
+}
+
+#stats {
+    background-color: rgb(21, 108, 148);
+    color: rgb(43, 182, 43);
+    width: 10%;
+    height: 150px;
+    text-align: center;
+    margin: 3px;
+    
+
+}
+
+#statement {
+    background-color: rgb(12, 57, 109);
+    color: white;
+    width: 14%;
+    height: 30px;
+    text-align: left;
+    padding: 0px;
+    margin: 3px;
+
+}
+
+#score {
+    background-color: rgb(12, 57, 109);
+    color: white;
+    width: 14%;
+    height: 100px;
+    text-align: left;
+    padding: 0px;
+    margin: 3px;
+    border: 1px;
+
+}
