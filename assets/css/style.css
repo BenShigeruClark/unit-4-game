@@ -1,8 +1,11 @@
 
-body {
-    background-color: lightskyblue;
-}
 
+/* for some reason I can't get the background jpeg to work in the body, I've researched this but can't seem to find a solution?? Just going to use a solid similar color*/
+body {
+    
+    background-color: rgb(55, 182, 233);
+    
+} 
 
 #gametitle {
     background-color: peru;
@@ -35,7 +38,7 @@ body {
     height: 150px;
     margin: 3px;
     margin-top: 2px;
-
+    font-size: 80px;
 }
 
 #stats {
@@ -53,7 +56,7 @@ body {
     background-color: rgb(12, 57, 109);
     color: white;
     width: 14%;
-    height: 30px;
+    height: 50px;
     text-align: left;
     padding: 0px;
     margin: 3px;
@@ -69,5 +72,39 @@ body {
     padding: 0px;
     margin: 3px;
     border: 1px;
+
+}
+
+.crystalColor {
+    height: 100px;
+    border: 5px;
+}
+
+#blueCrystal {
+    float: right;
+    border: 10px;
+    margin: 10px;
+    float: left;
+}
+
+#greenCrystal {
+    float: right;
+    border: 10px;
+    margin: 10px;
+    float: left;
+}
+
+#redCrystal {
+    float: right;
+    border: 10px;
+    margin: 10px;
+    float: left;
+}
+
+#yellowCrystal {
+    float: right;
+    border: 10px;
+    margin: 10px;
+    float: left;
 
 }

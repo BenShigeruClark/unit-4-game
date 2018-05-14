@@ -4,16 +4,28 @@
 <head>
     <title>Crystal Collector Game</title>
 
+
         <!-- CSS reset -->
     <link rel = "stylesheet" href="./assets/css/reset.css">
 
             <!-- CSS link -->
     <link rel = "stylesheet" href = "./assets/css/style.css">
 
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    
+<!-- <style>
+
+        body {
+    background-image: url("/../assets/images/background_img.jpg") ;
+         }
+
+</style> -->
 </head>
 
-<body>
 
+    <!-- <img src = "assets/images/background_img.jpg"> -->
+<body>
     <h1 id = "gametitle">Crystals Collector!</h1>
 
     <div class = "rules">
@@ -56,9 +68,35 @@
     </h3>
     </div>
 
-    <div class = "images">
+    <!-- <div id = "crystals"> -->
+
+        <div class = "crystalElement">
+
+            <div id = "blueCrystal">
+            <img src = "assets/images/blue.png" class = "crystalColor">
+            </div>
+        <!-- </div> 
+
+        <div class = "crystalElement"> -->
+            <div id = "greenCrystal">
+            <img src = "assets/images/green.png" class = "crystalColor">
+            </div>
+        <!-- </div>
+
+        <div class = "crystalElement"> -->
+            <div id = "redCrystal">
+            <img src = "assets/images/red.png" class = "crystalColor">
+            </div>
+        <!-- </div>
+
+        <div class = "crystalElement"> -->
+            <div id = "yellowCrystal">
+            <img src = "assets/images/yellow.png" class = "crystalColor">
+            </div>
+            
+        </div>
         <!-- images go here -->
-    </div>
+    <!-- </div> -->
 
         <div id = "statement">
             <h3>Your total score is!</h3>
@@ -67,7 +105,7 @@
     <footer id = "score">
         <h1>0</h1>
     </footer>
-
+    <script type = "text/javascript" src = "assets/javascript/game.js"></script>
 
 
 
